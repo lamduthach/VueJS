@@ -1,0 +1,10 @@
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="app.js"></script>
+
+<div id="app">
+    <button v-on:click="counter++">Increase</button>
+    <button v-on:click="counter--">Decrease</button>
+    <button v-on:click="secondCounter++">Increase second</button>
+    <p>Counter: {{ counter }} | {{ secondCounter }}</p>
+    <p>Result: {{ result() }} | {{ output }}</p>
+</div>
